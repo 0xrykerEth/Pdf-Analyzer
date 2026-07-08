@@ -220,7 +220,7 @@ node worker/pdfWorker.js
 ## Upload PDF
 
 ```http
-POST /upload
+POST /api/upload
 ```
 
 Uploads a PDF and queues it for background processing.
@@ -230,7 +230,7 @@ Uploads a PDF and queues it for background processing.
 ## Ask Questions
 
 ```http
-POST /analyze
+POST /api/chat
 ```
 
 Returns AI-generated answers based on the uploaded document(s).
